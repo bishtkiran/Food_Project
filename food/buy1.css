@@ -1,0 +1,33 @@
+body {
+    background-image: url("bgnd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+td {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+table {
+    line-height: 2;
+    padding: 30px 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+button {
+    color: #fff;
+}

@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-design a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.user {
+    margin-top: 10px;
+    height: 35px;
+    width: 30px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background: #fff;
+    text-decoration: none;
+}
+
+.menu-design h6 {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000;
+    float: right;
+    margin-top: 0px;
+    padding: 5px;
+    color: white;
+}
+
+.content-title h3 {
+    padding: 80px;
+    margin: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.image11 {
+    height: 100px;
+    width: 100px;
+}
+
+.home-item-icon {
+    float: left;
+}
+
+.home-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.home-item-icon {
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+}
+
+.home-item-title h3 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.box {
+    height: 800px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 300px;
+    animation-name: slideranimtion;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+div#slider {
+    overflow: hidden;
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
+}
